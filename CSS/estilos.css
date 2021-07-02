@@ -1,0 +1,696 @@
+/*ESTO ES PARA LA BARRA DE NAVEGACION*/
+.bg-oscuro{
+    display: flex;
+    background-color: black;
+}
+/*ESTO ES PARA PONER TAMAÑO Y TIPO DE LETRA AL ALERTA TU ZONA*/
+.navbar-brand{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;  
+}
+/*ESTO ES PARA PONER TAMAÑO Y TIPO DE LETRA A LAS OPCIONES DEL NAVEGADOR*/
+.nav-link {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;  
+}
+/*ESTO ES PARA EL CONTENEDOR DE LA IMAGEN PRINCIPAL*/
+.Principal{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+}
+/*ESTO ES PARA LA IMAGEN PRINCIPAL*/
+.Principal img{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+/*ESTO ES PARA LOS SUBTITULOS UBICADOS A LA IZQUIERDA*/
+.Subtitulos{
+    color: black;
+    font-size: 55px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*ESTO ES PARA LOS TEXTOS EN LA IMAGEN PRINCIPAL*/
+.texto-encima-1{
+    position: absolute;
+    font-size: 55px;
+    top: 80px;
+    left: 80px;
+    color: white;
+    width: 580px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.texto-encima-2{
+    position: absolute;
+    font-size: 44px;
+    top: 270px;
+    left: 170px;
+    color: white;
+    width: 600px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*ESTO ES PARA LA SECCION QUE ES CONTENEDOR DEL MAPA*/
+.sec-mapa{
+    position: relative;
+    margin-left: 30px;
+    width: 95%;
+    height: 500px;
+}
+/*ESTO ES PARA EL SUBTITULO QUE VA AL MEDIO*/
+.Subtitulos-medio{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*ESTO ES PARA LA SECCION DE 3 COLUMNAS(OPCIONES EN LA APP)*/
+.sec-columnas{
+    width: 100%;
+    height: 600px;
+}
+/*COLUMNAS PARA LA SECCION DE OPCIONES EN LA APP*/
+.columnas{
+    width: 33%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    align-items: center;
+}
+/*CONTENEDOR DE IMAGENES DE LA SECCION OPCIONES EN LA APP*/
+.img1{
+    position: absolute;
+    width: 70%;
+    margin-top: 15%;
+    margin-left:15%;
+    
+}
+/*IMAGENES DE LA SECCION OPCIONES EN LA APP*/
+.img1 img{
+    height: 220px;
+}
+/*CLASE PARA LOS SUBTITULOS DE LAS IMAGENES DE LA SECCION DE OPCIONES EN LA APP*/
+.subt-colum{
+   position: relative;
+   margin-top: 10px;
+   width: 100%;
+   font-size: 20px;
+   color: black;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;  
+}
+/*PARRAFOS DE LA SECCION DE OPCIONES EN LA APP*/
+.parrafo-colum{ 
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;  
+}
+/*SUBTITULO QUE VA AL MEDIO PERO CON UN MENOR TAMAÑO*/
+.Subtitulos-medio-2{
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*SECCION DE LOS BOTONES DE DESCARGA(CONTENEDOR DE BOTONES)*/
+.sec-btdescarga{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 31%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+/*CLASE PARA MODIFICAR LOS BOTONES*/
+.boton{
+    border:1px solid #000354;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #000354;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;  
+}
+/*EL CONTENEDOR DE TODO EL CARRUSEL*/
+.container-carrousel{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+/*DEFINIR EL TAMAÑO DEL CARRUSEL QUE VEN LOS USUARIOS*/
+.carousel{
+    width: 80%;
+    height: 400px;
+
+}
+/*MODIFICAR EL CONTENEDOR DE LAS IMAGENES */
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+/*MODIFICAR LAS IMAGENES DEL CARRUSEL*/
+.carousel-item img{
+    border-radius: 20px;
+    
+}
+/*ESTO ES PARA LOS SUBTITULOS A LA DERECHA*/
+.Subtitulos-derecha{
+    margin-right: 5%;
+    margin-top: 30px;
+    font-size: 55px;
+    text-align: right;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*CONTENEDOR DE LA SECCION DE POLICIAS*/
+.Sec-policia{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 90%;
+}
+/*TEXTO SOBRE LA IMAGEN DE LA SECCION DE POLICIAS*/
+.texto-encima-3{
+    position: absolute;
+    color: white;
+    font-size: 55px;
+    top: 100px;
+    width: 700px;
+    left: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*IMAGEN DE LA SECCION POLICIA*/
+.Sec-policia img{
+    border-radius: 50px;
+    width: 100%;
+}
+/*TEXTO SOBRE LA IMAGEN DE LA SECCION DE POLICIAS*/
+.texto-encima-4{
+    position: absolute;
+    color: white;
+    font-size: 44px;
+    top: 260px;
+    width: 500px;
+    left: 140px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*TEXTO SOBRE LA IMAGEN DE LA SECCION DE POLICIAS*/
+.texto-encima-5{
+    position: absolute;
+    top: 400px;
+    left: 320px;
+}
+/*MODIFICAR LAS SECCIONES DE PRECIOS Y TAMBIEN DE NOSOTROS PORQUE SON DOS COLUMNAS*/
+.sec-mitad{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+}
+/*CONTENEDOR DENTRO DE SEC-MITAD (COLUMNAS)*/
+.columna-mitad{
+    width: 50%;
+    position: relative;
+    align-items: center;
+    height: 100%;
+}
+/*SUBTITULO DE LA PRIMERA COLUMNA DE LA SECCION DE PRECIOS*/
+.columna-mitad h2{
+    color: black;
+    font-size: 44px;
+    margin-left: 12%;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*LISTA DE BENEFICIOS DE LA PRIMERA COLUMNA DE LA SECCION DE PRECIOS*/
+.columna-mitad ul{
+    font-size: 18px;
+    color: black;
+    margin-left: 15%;
+    font-family: 'Poppins', sans-serif;  
+}
+/*CONTENEDOR DE LA IMEGEN QUE APARECE EN LA SECCION DE PRECIOS*/
+.cont-precio-mitad  {
+    position: relative;
+    height: 80%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+/*IMAGEN QUE ESTA DENTRO DE LOS CONTENEDORES*/
+.columna-mitad div img{
+    width: 100%;
+    height: 100%;    
+}
+/*CONTENEDOR DEL SEGMENTO DEBAJO DE LA LISTA DE BENEFICIOS*/
+.precio-info{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;  
+    justify-content: space-between;
+}
+/*PEQUEÑO PARRAFO DENTRO DEL CONTENEDOR DE ARRIBA*/
+.precio-info p{
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;  
+}
+/*BOTON DENTRO DEL CONTENEDOR PRECIO-INFO*/
+.precio-info a{
+    font-size: 14px;
+}
+/*CONTENEDOR DE LA IMAGEN QUE SE MUESTRA EN LA SECCION NOSOTROS*/
+.contenedor-team{
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 60%;
+}
+/*IMAGEN DE LA SECCION NOSOTROS*/
+.contenedor-team img{
+    width: 100%;
+    height: 100%;
+}
+/*CONTENEDOR DEL PARRAFO DE LA SECCION NOSTROS*/
+.parrafo-team{
+    margin-top: 5%;
+    margin-right: 8%;
+    margin-left: 0%;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;  
+}
+/*SECCION DEL FORMULARIO*/
+.sec-fromulario{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+/*CONTENEDOR DEL FORMULARIO*/
+.contenedor-form{
+    /*margin-left: 30%;*/
+    width: 50%;
+    height: 100%;
+}
+/*FORMULARIO*/
+.formulario{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    
+}
+/*PEQUEÑO TITULO DEL FORMULARIO*/
+.formulario h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+/*LAS BARRAS DENTRO DEL FORMULARIO*/
+.formulario input{
+    margin-top: 10px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    border-radius: 8px;
+    width: 100%;
+    padding:5px
+}
+/*CONTENEDOR DEL BOTON DE LA PARTE INFERIOR DEL FORMULARIO*/
+.formulario div{
+   margin-top: 20px;
+   text-align: center;
+}
+/*FOOTER*/
+footer{
+    background-color: black;
+    margin-top: 2%;
+    width:100%;
+    height: 13pc;
+    display: flex;
+    color: white;
+     
+}
+/*SE MODIFICA LOS DIVS DEL FOOTER(LAS 4 COLUMNAS)*/
+footer div{
+    width: 25%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+/*TITULO DE LAS COLUMNAS*/
+footer div h4{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+/*PARRAFOS QUE DESCRIBEN DONDE CONTACTARNOS*/
+.footer div p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+/*EL "ALERTA TU ZONA" DEL FOOTER*/
+.footer-text{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+}
+/*EL CONTENEDOR DE LOS LAS PARTES DONDE VAN LOS ICONOS*/
+.social{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    font-size: 3pc;
+    height: 37%;
+}
+/*CONTENEDOR DE CADA ICONO*/
+.container-ico{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+/*QUE CAMBIE EL TIPO DE CURSOR EN LOS ICONOS*/
+.fab{
+    cursor: pointer;
+}
+
+
+
+/*PARA RESPONSIVE*/
+@media screen and (max-width:900px){
+    /*ALERTA TU ZONA DE LA BARRA DE NAVEGACION*/
+    .nav-link {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;  
+    }
+    /*SUBTITULOS A LA IZQUIERDA*/
+    .Subtitulos{
+        color: black;
+        font-size: 22px;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    /*TEXTO ENCIMA DE LA IMAGEN PRINCIPAL*/
+    .texto-encima-1{
+        position: absolute;
+        font-size: 26px;
+        top: 140px;
+        left: 40px;
+        color: white;
+        width: 350px;
+    }
+    /*TEXTO ENCIMA DE LA IMAGEN PRINCIPAL*/
+    .texto-encima-2{
+        position: absolute;
+        font-size: 22px;
+        top: 250px;
+        left: 90px;
+        color: white;
+        width: 360px;
+    }
+    /*CONTENEDOR DEL MAPA*/
+    .sec-mapa{
+        position: relative;
+        margin-left: 0px;
+        width: 100%;
+        height: 350px;
+    }
+    /*.sec-mapa img{
+        height: 100%;
+    }*/
+    /*SUBTITULO QUE VA AL MEDIO*/
+    .Subtitulos-medio{
+        color: black;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    /*SECCION DE TRES COLUMNAS QUE AHORA PASAN A SER FILAS (OPCIONES EN LA APP)*/
+    .sec-columnas{
+        width: 100%;
+        height: 1300px;
+    }
+    /*COLUMNAS DE LA SECCION DE OPCIONES EN LA APP QUE AHORA SON FILAS*/
+    .columnas{
+        width: 100%;
+        /*display: flex;*/
+        position: relative;
+        height: 33%;
+    }
+    /*CONTENEDOR DE LAS IMAGENES DE LA SECCION OPCIONES EN LA APP*/
+    .img1{
+        position: absolute;
+        width: 60%;
+        height: 50%;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+    /*IMAGENES DE LA SECCION OPCIONES EN LA APP*/
+    .img1 img{
+        height: 100%;
+    }
+    /*LOS SUBTITULOS DEBAJO DE CADA IMAGEN DE LA SECCION OPCIONES EN LA APP*/
+    .subt-colum{  
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;  
+     }
+     /*PARRAFOS DE LA SECCION OPCIONES EN LA APP*/
+     .parrafo-colum{ 
+         font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+     }
+     /*SUBTITULO AL MEDIO PERO DE UN MENOR TAMAÑO*/
+     .Subtitulos-medio-2{
+        color: black;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    /*SECCION(CONTENEDOR) DE LOS BOTONES DE DESCARGA*/
+    .sec-btdescarga{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20%;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    /*SE MODIFICA EL TAMAÑO DE LOS BOTONES DE LA SECCION DESCARGA*/
+    .sec-btdescarga a{
+        font-size: 12px;
+    }
+    /*CONTENEDOR DEL CARRUSEL*/
+    .container-carrousel{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    
+    }
+    /*SE MODIFICA EL CARRUSEL*/
+    .carousel{
+        width: 640px;
+        height: 100%;  
+    }
+    /*IMAGENES DEL CARRUSEL*/
+    .img-carousel{
+      width: 100%;
+      height: 200px;
+    }
+    /*SECCION DEL POLICIA*/
+    .Sec-policia{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 5%;
+        width: 90%;
+        height: 220px;
+    }
+    /*IMAGEN DE LA SECCION DEL POLICIA*/
+    .Sec-policia img{
+        height: 100%;
+    }
+    /*TEXTO ENCIMA DE LA IMAGEN DE LA SECCION DEL POLICIA*/
+    .texto-encima-3{
+        position: absolute;
+        color: white;
+        font-size: 22px;
+        top: 30px;
+        width: 260px;
+        left: 50px;
+    }
+    .texto-encima-4{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        top: 100px;
+        width: 250px;
+        left: 80px;
+    }
+    .texto-encima-5{
+        position: absolute;
+        top: 170px;
+        left: 160px;
+        font-size: 12px;
+    }
+    /*SUBTITULO QUE VA A LA DERECHA*/
+    .Subtitulos-derecha{
+        margin-right: 5%;
+        margin-top: 22px;
+        text-align: right;
+        font-size: 20px;
+        color: black;
+    }
+    /*SECCION DE PRECIOS Y NOSOTROS QUE SE DIVIDEN EN COLUMNAS(AHORA FILAS)*/
+    .sec-mitad{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        display: inline-block;
+    }
+    /*COLUMNA QUE AHORA ES FILA*/
+    .columna-mitad{
+        width: 100%;
+        position: relative;
+        height: 50%;
+    }
+    /*SUBTITULO DENTRO DE LA COLUMNA(AHORA FILA)*/
+    .columna-mitad h2{
+        color: black;
+        font-size: 22px;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+    /*LISTA DE BENEFICIOS*/
+    .columna-mitad ul{
+        font-size: 14px;
+        color: black;
+        margin-left: 15%;    
+    }
+    /*CONTENEDOR DE LA IMAGEN QUE VA EN EL PRECIO*/
+    .cont-precio-mitad{
+        position: relative;
+        height: 90%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 0px;
+    }
+    /*IMAGENES DE LAS COLUMNAS*/
+    .columna-mitad div img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    /*CONTENEDOR DE LA SECCION PRECIOS(PARRAFO Y BOTON)*/
+    .precio-info{
+        position: relative;
+        margin-left: 20%;
+        margin-right: 20%;
+        align-items: center;
+        display: inline-block;
+        justify-content: space-between;
+    
+    }
+    /*PEQUEÑO PARRAFO QUE INDICA EL PRECIO*/
+    .precio-info p{
+        font-size: 14px;
+    }
+    /*BOTON DE MÁS INFORMACION SOBRE PRECIOS*/
+    .precio-info a{
+        font-size: 12px;
+    }
+    /*CONTENEDOR DE LA IMAGEN DEL TEAM*/
+    .contenedor-team {
+        height: 90%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+    /*CONTENEDOR DEL PARRAFO ACERCA DE NOSOTROS*/
+    .parrafo-team{
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 14px;
+    }
+    /*SECCION DEL FORMULARIO*/
+    .sec-fromulario{
+        margin-top: 5%;
+    }
+    /*CONTENEDOR DEL FORMULARIO*/
+    .contenedor-form{
+        /*margin-left: 30%;*/
+        width: 70%;
+        height: 100%;
+    }
+    /*TITULO DEL FORMULARIO*/
+    .formulario h1{
+        font-size: 18px;
+    }
+    /*BARRAS DEL FORMULARIO*/
+    .formulario input{
+        padding:5px;
+    }
+    /*BOTON DENTRO DEL FORMULARIO*/
+    .formulario div a{
+        font-size: 16px;
+    }
+    /*EL "ALERTA TU ZONA" DEL FOOTER*/
+    .footer-text{
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif; 
+    }
+    /*LOS TITULOS DE LAS COLUMNAS DENTRO DEL FOOTER*/
+    footer div h4{
+        font-size: 14px;
+        margin: 19px;
+        font-family: 'Poppins', sans-serif;
+    }
+    /*PARRAFOS DE LA COLUMNA CONTACTANOS DENTRO DEL FOOTER*/
+    .footer div p{
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        margin:14px;
+    }
+    /*FOOTER*/
+    footer {
+        font-size: 14px;
+        height: 29pc;
+        flex-direction: column;
+    }
+    /*CONTENEDORES DEL FOOTER*/
+    footer div{
+        width: 100%;
+        align-items: center;
+    }
+    /*SECCION DE REDES SOCIALES*/
+    .social{
+        width:80%
+    }
+    
+}
+
+
+
